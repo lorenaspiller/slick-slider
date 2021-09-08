@@ -1,0 +1,30 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 100%;
+}
+
+.slider {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider .slider-image {
+    width: 100%; */
+    /* height: auto;
+    /* text-align: center; */
+}
+
+.slider-image img {
+    width: 100%;
+    display: inline-block;
+}
