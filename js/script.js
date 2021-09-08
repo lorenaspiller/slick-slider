@@ -1,13 +1,11 @@
 $(document).ready(function () {
     $('.slider').slick({
-        
-        dots: true,
-        // draggable: true,
-        // swipe: true
-        // autoplay: true,
-        // autoplaySpeed: 2000,
-        arrows: true,
-        appendDots: $('.slider-image'),
-        appendArrows: $('.slider-image'),
-  });
+        infinite: true,
+        slidesToScroll: 1,
+        slideToShow: 3,
+        autoplay: false,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next')
+    });
+  
 });
